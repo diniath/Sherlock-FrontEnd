@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Control Panel</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<style>
+    #logo{
+        width: 200px;
+    }
+    .container{
+        display: flex;
+    }
+    #nav-buttons{
+        align-content: space-around;
+        padding-top: 30px;
+    }
+    #no-wrap{
+        flex: 0 0 auto;
+    }
+    #profile-pic{
+        border: black;
+    }
+</style>
+</head>
+<body>
+    <!-- header -->
+    <header class="row">
+        <div class="col-12 bg-dark" style="height: 200px;">
+            <nav >
+                <section>
+                    <img id="logo" src="img/logo.png" alt="sherlock-logo">
+                </section>
+                <section id="nav-buttons" class="container">
+                    <button>
+                        Προφίλ
+                    </button>
+                    <button>
+                        Παραγγελίες
+                    </button>
+                    <button id="no-wrap">
+                        Τρόποι πληρωμής
+                    </button>
+                    <button>
+                        Διευθύνσεις
+                    </button>
+                    <button>
+                        Αξιολογήσεις
+                    </button>
+                </section>
+            </nav>
+    </header>
+
+    <main class="row">
+        <article class="col-2">
+            <div id="profile-pic">
+
+            </div>
+        </article>
+        <article class="col-10">
+
+        </article>
+    </main>
+
+</body>
+</html>
