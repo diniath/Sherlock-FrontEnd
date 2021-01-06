@@ -92,8 +92,12 @@
                                     <input class="form-control" id="iban" type="number" placeholder="iban" required="">
                                 </div>
                             </div>
-                            <div class="col-sm-4 mt-3">
-                                <button type="button" class="btn btn-primary">Προσθήκη νέου</button>
+                            <div class="col-sm-4 mb-3">
+                                <div>
+                                    <label for="vat_service">Δ.Ο.Υ.</label>
+                                    <input class="form-control" id="vat_service" type="text"
+                                        placeholder="Εισάγετε Δ.Ο.Υ." required="">
+                                </div>
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -1396,6 +1400,7 @@
             const comp_password = document.getElementById('company_password');
             const cname = document.getElementById('company_name');
             const vatnumber = document.getElementById('vat_number');
+            const vatservice = document.getElementById('vat_service');
             const iban = document.getElementById('iban');
             const comp_descr = document.getElementById('company_description');
             const rep_name = document.getElementById('representative_name');
@@ -1412,6 +1417,7 @@
             comp_password.value = data.password;
             cname.value = data.cname;
             vatnumber.value = data.vatnumber;
+            vatservice.value = data.vatservice;
         }
 
         fetch( "company.json" )
