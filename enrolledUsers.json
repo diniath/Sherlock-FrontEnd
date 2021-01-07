@@ -1,0 +1,67 @@
+[{ 
+	"username": "shashasha",
+	"password": "1234",
+	"fname": "Kukuruku OE",
+	"lname": "Kukuruku OE",
+	"email": "shasha@gmail.com",
+	"dateofbirth": "2002-03-02",
+	"postalcode": 15344,
+	"address": "geraki",
+	"city": "athens",
+	"municipality": "chalkida",
+	"telephone": 666,
+	"mobile": 666666,
+	"imageUrl": { "id": 2 },
+	"roleList": [ {"id": 1} ]
+	},
+
+	{ 
+	"username": "giouxou",
+	"password": "1234",
+	"fname": "Kukuruku AE",
+	"lname": "Kukuruku AE",
+	"email": "kuku@gmail.com",
+	"dateofbirth": "2001-03-02",
+	"postalcode": 15344,
+	"address": "aetos",
+	"city": "athens",
+	"municipality": "chalkida",
+	"telephone": 666,
+	"mobile": 666666,
+	"imageUrl": { "id": 1 },
+	"roleList": [ {"id": 2} ]
+	},
+
+	{   
+	"username": "dodo",
+	"password": "3212",
+	"fname": "Kukuruku OE",
+	"lname": "Kukuruku OE",
+	"email": "dodo@gmail.com",
+	"dateofbirth": "2003-03-02",
+	"postalcode": 15344,
+	"address": "koukouvagia",
+	"city": "athens",
+	"municipality": "paiania",
+	"telephone": 666,
+	"mobile": 666666,
+	"imageUrl": { "id": 3 },
+	"roleList": [ {"id": 4} ]
+	},
+
+	{   
+	"username": "stststs",
+	"password": "1234",
+	"fname": "Kukuruku OE",
+	"lname": "Kukuruku OE",
+	"email": "ststst@gmail.com",
+	"dateofbirth": "2001-04-08",
+	"postalcode": 15344,
+	"address": "spourgiti",
+	"city": "athens",
+	"municipality": "chalkida",
+	"telephone": 666,
+	"mobile": 666666,
+	"imageUrl": { "id": 4 },
+	"roleList": [ {"id": 3} ]
+	}]

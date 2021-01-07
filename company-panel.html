@@ -1338,9 +1338,9 @@
                                 <img src="../assets/img/team/profile-picture-1.jpg"
                                     class="user-avatar large-avatar rounded-circle mx-auto mt-n7 mb-4"
                                     alt="Neil Portrait">
-                                <h4 class="h3">Arte de Pello</h4>
+                                <h4 class="h4" id="headline_cname"></h4>
                                 <h5 class="font-weight-normal">Hair stylist</h5>
-                                <p class="text-gray mb-4">Περιστέρι, GR</p>
+                                <p class="text-gray mb-4" id="headline_comp_city"></p>
                                 <!-- Den kserw an tha xreiastoume ta akoloutha dio buttons -->
                                 <a class="btn btn-sm btn-primary mr-2" href="#"><span
                                         class="fas fa-user-plus mr-1"></span> Connect</a>
@@ -1404,6 +1404,8 @@
             const comp_city = document.getElementById('company_city');
             const comp_municipality = document.getElementById('company_municipality');
             const comp_zip = document.getElementById('company_zip');
+            const headline_cname = document.getElementById('headline_cname');
+            const headline_comp_city = document.getElementById('headline_comp_city');
 
             comp_uname.value = data.username;
             comp_password.value = data.password;
@@ -1411,11 +1413,16 @@
             vatnumber.value = data.vatnumber;
             vatservice.value = data.vatservice;
             iban.value = data.iban;
+            comp_descr.value = data.description;
             comp_email.value = data.email;
             comp_phone.value = data.telephone;
             comp_mobile.value = data.mobile;
             comp_address.value = data.address;
-            comp_street_num.value = data.
+            comp_city.value = data.city;
+            comp_municipality.value = data.municipality;
+            comp_zip.value = data.postalcode;
+            headline_cname.innerText = data.cname;
+            headline_comp_city.innerText = data.city;
 
         }
 
