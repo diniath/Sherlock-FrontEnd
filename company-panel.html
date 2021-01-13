@@ -206,7 +206,7 @@
                                 Δευτέρα
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" id="monday" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="monday_open" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -236,7 +236,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="monday_close" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -269,7 +269,7 @@
                                 και
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="monday_reopen" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -299,7 +299,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="monday_reclose" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -332,7 +332,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                    <input class="form-check-input" id="monday_never_open" type="checkbox" value="" id="defaultCheck10">
                                     <label class="form-check-label" for="defaultCheck10">
                                          κλειστά
                                     </label>
@@ -344,7 +344,7 @@
                                 Τρίτη
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="tuesday_open" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -374,7 +374,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="tuesday_close" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -407,7 +407,7 @@
                                 και
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="tuesday_reopen" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -437,7 +437,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="tuesday_reclose" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -470,7 +470,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                    <input class="form-check-input" id="tuesday_never_open" type="checkbox" value="" id="defaultCheck10">
                                     <label class="form-check-label" for="defaultCheck10">
                                         κλειστά
                                     </label>
@@ -482,7 +482,7 @@
                                 Τετάρτη
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="wednesday_open" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -512,7 +512,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="wednesday_close" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -545,7 +545,7 @@
                                 και
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="wednesday_reopen" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -575,7 +575,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="wednesday_reclose" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -608,7 +608,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                    <input class="form-check-input" id="wednesday_never_open" type="checkbox" value="" id="defaultCheck10">
                                     <label class="form-check-label" for="defaultCheck10">
                                         κλειστά
                                     </label>
@@ -620,7 +620,7 @@
                                 Πέμπτη
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="thursday_open" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -650,7 +650,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="thursday_close" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -683,7 +683,7 @@
                                 και
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="thursday_reopen" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -713,7 +713,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="thursday_reclose" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -746,7 +746,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                    <input class="form-check-input" id="thursday_never_open" type="checkbox" value="" id="defaultCheck10">
                                     <label class="form-check-label" for="defaultCheck10">
                                         κλειστά
                                     </label>
@@ -758,7 +758,7 @@
                                 Παρασκευή
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="friday_open" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -788,7 +788,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="friday_close" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -821,7 +821,7 @@
                                 και
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="friday_reopen" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -851,7 +851,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="friday_reclose" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -884,7 +884,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                    <input class="form-check-input" id="friday_never_open" type="checkbox" value="" id="defaultCheck10">
                                     <label class="form-check-label" for="defaultCheck10">
                                         κλειστά
                                     </label>
@@ -896,7 +896,7 @@
                                 Σάββατο
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="saturday_open" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -926,7 +926,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="saturday_close" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -959,7 +959,7 @@
                                 και
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="saturday_reopen" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -989,7 +989,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="saturday_reclose" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -1022,7 +1022,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                    <input class="form-check-input" id="saturday_never_open" type="checkbox" value="" id="defaultCheck10">
                                     <label class="form-check-label" for="defaultCheck10">
                                         κλειστά
                                     </label>
@@ -1034,7 +1034,7 @@
                                 Κυριακή
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="sunday_open" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -1064,7 +1064,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="sunday_close" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -1097,7 +1097,7 @@
                                 και
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="από" />
+                                <input class="form-select mt-0" id="sunday_reopen" list="schedule" name="timeslot" placeholder="από" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -1127,7 +1127,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-2 mb-3">
-                                <input class="form-select mt-0" list="schedule" name="timeslot" placeholder="έως" />
+                                <input class="form-select mt-0" id="sunday_reclose" list="schedule" name="timeslot" placeholder="έως" />
                                 <datalist id="schedule" aria-label="schedule">
                                     <option value="08.00">
                                     <option value="08.30">
@@ -1160,7 +1160,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                    <input class="form-check-input" id="sunday_never_open" type="checkbox" value="" id="defaultCheck10">
                                     <label class="form-check-label" for="defaultCheck10">
                                         κλειστά
                                     </label>
@@ -1286,7 +1286,7 @@
                                 </datalist>
                             </div>
                             <div class="col-sm-1 mt-3">
-                                <button type="button" class="btn btn-primary"><i class="fa fa-trash"></i></button>
+                                <button type="button" id="delete-service" class="btn btn-primary"><i class="fa fa-trash"></i></button>
                             </div>
                         </div>
                         
@@ -1379,7 +1379,7 @@
         </div>
     </section>
     <script>
-        let companyData
+        // let companyData
         function toJSON(response){
             return response.json();
         }
@@ -1415,6 +1415,7 @@
             iban.value = data.iban;
             comp_descr.value = data.description;
             comp_email.value = data.email;
+            representative_name.value = data.representative;
             comp_phone.value = data.telephone;
             comp_mobile.value = data.mobile;
             comp_address.value = data.address;
@@ -1426,10 +1427,19 @@
 
         }
 
+        function getCompanySchedule(data){
+
+        }
+
         fetch( "company.json" )
             .then( toJSON )
             .then( getCompanyById )
             .catch( handleErrors );
+
+        fetch ( "company schedule.json")
+            .then( toJSON )
+            .then( getCompanySchedule )
+            .catch ( handleErrors );
     </script>
 </body>
 

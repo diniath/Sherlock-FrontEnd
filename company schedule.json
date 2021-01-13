@@ -1,0 +1,64 @@
+ [
+	{
+	"id": 1,
+	"day": 1,
+	"opentime": 16,
+	"closetime": 30,
+	"reopentime": 34,
+	"reclosetime": 42
+	},
+
+ 	{
+	"id": 1,
+	"day": 2,
+	"opentime": 16,
+	"closetime": 30,
+	"reopentime": 34,
+	"reclosetime": 42
+	},
+
+	{
+	"id": 1,
+	"day": 3,
+	"opentime": 16,
+	"closetime": 30,
+	"reopentime": 34,
+	"reclosetime": 42
+	},
+	
+	{
+	"id": 1,
+	"day": 4,
+	"opentime": 16,
+	"closetime": 30,
+	"reopentime": 34,
+	"reclosetime": 42
+	},
+
+	{
+	"id": 1,
+	"day": 5,
+	"opentime": 16,
+	"closetime": 30,
+	"reopentime": 34,
+	"reclosetime": 42
+	},
+
+	{
+	"id": 1,
+	"day": 6,
+	"opentime": 16,
+	"closetime": 30,
+	"reopentime": 34,
+	"reclosetime": 42
+	},
+	
+	{
+	"id": 1,
+	"day": 7,
+	"opentime": 16,
+	"closetime": 30,
+	"reopentime": 34,
+	"reclosetime": 42
+	}
+]

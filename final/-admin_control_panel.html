@@ -21,6 +21,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style>
         body {
             color: #566787;
@@ -198,6 +199,23 @@
 </head>
 
 <body>
+    <header class="container-fluid">
+        <div class="d-flex justify-content-between p-5">
+            <section class="col-2"><a href="-index.html"><img class="w-75" src="assets/img/header-logo.png"
+                        alt="logo" /></a>
+            </section>
+
+            <!-- <section class="col-1">
+                <button id="userModalBtn" class="btn">
+                    <i class='fas fa-user-alt' style='font-size:24px'></i>
+                </button>
+                <button type="submit" class="btn" id="cartBtn" onclick="cartOpen">
+                    <i class="fas fa-shopping-cart" style='font-size:24px'></i>
+                </button>
+            </section> -->
+        </div>
+    </header>
+
     <section>
         <div class="container-xl">
             <div class="table-responsive">
@@ -526,6 +544,114 @@
             </div>
         </div>
     </section>
+
+    <!-- <footer class="bg-light col-lg-12 d-flex justify-content-center p-5">
+        <section class="col-4 pt-3 pb-3">
+            <h4 class=" h4">Κατηγορίες</h1>
+                <hr style="width: 95%">
+                <section class="d-flex justify-content-center">
+                    <section class="col-6">
+                        <a href="-category_technology.html"><button type="button" class="btn btn-light w-100 text-left  "
+                            onMouseOver="this.style.backgroundColor='#ffcc00'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΤΕΧΝΟΛΟΓΙΑ</button></a>
+                        <a href="-index.html"><button onclick="showAlert()" type="button" class="btn btn-light w-100 text-left"
+                            onMouseOver="this.style.backgroundColor='#007bff'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΙΑΤΡΙΚΑ</button></a>
+                        <a href="-index.html"><button onclick="showAlert()" type="button" class="btn btn-light w-100 text-left"
+                            onMouseOver="this.style.backgroundColor='#dc3545'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΕΚΠΑΙΔΕΥΣΗ</button></a>
+                        <a href="-category_technicians.html"><button type="button" class="btn btn-light w-100 text-left"
+                            onMouseOver="this.style.backgroundColor='#28a745'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΤΕΧΝΗΤΕΣ</button></a>  
+                        <a href="-category_healthandbeauty.html"><button type="button" class="btn btn-light w-100 text-left"
+                            onMouseOver="this.style.backgroundColor='#9535f4'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΟΜΟΡΦΙΑ</button>
+                        </a>
+                            
+                    </section>
+                    <section class="col-6">
+                        <a href="-index.html"><button onclick="showAlert()" type="button" class="btn btn-light w-100 text-left"
+                            onMouseOver="this.style.backgroundColor='#e57f12'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΟΙΚΟΝΟΜΟΤΕΧΝΙΚΑ</button></a>
+                        <a href="-index.html"><button onclick="showAlert()" type="button" class="btn btn-light w-100 text-left"
+                            onMouseOver="this.style.backgroundColor='#12b7e5'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΚΑΛΛΙΤΕΧΝΙΚΑ</button></a>
+                        <a href="-index.html"><button onclick="showAlert()" type="button" class="btn btn-light w-100 text-left"
+                            onMouseOver="this.style.backgroundColor='#70bcd1'"
+                            onMouseOut="this.style.backgroundColor='#eaedf2'">ΣΥΜΒΟΥΛΕΥΤΙΚΗ</button></a>
+                        
+
+                    </section>
+                </section>
+        </section>
+
+
+
+
+
+        <section class="col-4 pt-3 pb-3">
+            <h4 class="h4">Εταιρεία</h4>
+            <hr style="width: 95%">
+            <section class="d-flex justify-content-center">
+                <section class="col-6">
+                    <a href="-about.html"><button type="button" class="btn w-100 text-left p-0">Ποιοί είμαστε</button></a>
+                    <a href="-about.html#how-it-works"><button type="button" class="btn  w-100 text-left p-0">Πώς λειτουργεί</button></a>
+                    <a href="-about.html#privacy"><button type="button" class="btn  w-100 text-left p-0">Πολιτική Προστασίας</button></a>
+                    <a href="-about.html#privacy"><button type="button" class="btn  w-100 text-left p-0">Προσωπικά Δεδομένα </button></a>
+                    <a href="-about.html#privacy"><button type="button" class="btn  w-100 text-left p-0"> Πολιτική Cookies </button></a>
+                </section>
+                <section class="col-6">
+                    <a href="-index.html"><button onclick="showAlert()" type="button" class="btn  w-100 text-left p-0">Ευκαιρίες καριέρας</button></a>
+                    <a href="-company_sign_up.html"><button type="button" class="btn  w-100 text-left p-0">Β2Β - συνεργάτες</button></a>
+                    <a href="-index.html"><button onclick="showAlert()" type="button" class="btn  w-100 text-left p-0">Τύπος - νέα</button></a>
+                    <a href="-index.html"><button onclick="showAlert()" type="button" class="btn  w-100 text-left p-0">Sitemap</button></a>
+                    <a href="-contact.html"><button type="button" class="btn  w-100 text-left p-0">Επικοινωνία</button></a>
+                </section>
+            </section>
+        </section>
+
+
+        <section class="col-4 pt-3 pb-3">
+            <h4 class=" h4 text-right text-italic"> ... ας συνδεθούμε :) </h1>
+                <hr style="width: 95%">
+                <section class="d-flex justify-content-center flex-column">
+                    <section class="text-right">
+                        <a href="https://www.facebook.com/"><button type="submit" class="btn">
+                            <i class="fab fa-facebook-f h2 bg-transparent text-facebook"></i>
+                        </button></a>
+                        <a href="https://twitter.com/"><button type="submit" class="btn">
+                            <i class="fab fa-twitter h2 bg-transparent text-twitter"></i>
+                        </button></a>
+                        <a href="https://www.instagram.com/"><button type="submit" class="btn">
+                            <i class="fab fa-instagram h2 bg-transparent text-instagram"></i>
+                        </button></a>
+                        <a href="https://www.linkedin.com/"><button type="submit" class="btn">
+                            <i class="fab fa-linkedin-in h2 bg-transparent text-gray"></i>
+                        </button></a>
+                        <a href="https://www.youtube.com/"><button type="submit" class="btn">
+                            <i class="fab fa-youtube h2 bg-transparent text-youtube "></i>
+                        </button></a>
+                    </section>
+
+
+
+                    <section class="d-flex justify-content-end">
+                        <section class="pt-3 col-8 ">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Γράψε το email σου εδώ">
+                                </div>
+                                <button type="submit" class="btn btn-warning mt-2">Εγγραφή στο Newsletter</button>
+                            </form>
+                        </section>
+                    </section>
+                </section>
+        </section>
+
+
+    </footer> -->
+
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     <script>
 
@@ -574,7 +700,7 @@
             }
         )
 
-        
+
 
         fetch("enrolledUsers.json").then(
             result => {
@@ -610,6 +736,45 @@
                 ).catch(handleErrors);
             }
         )
+
+        function createCompany() {
+            const companyData = {
+
+                "username": "kikiriki",
+                "password": "psalidi4321",
+                "cname": "Mind the Cut",
+                "email": "mindthecut2@gmail.com",
+                "postalcode": 12135,
+                "address": "Σελήνης 12",
+                "city": "Αθήνα",
+                "municipality": "Περιστέρι",
+                "telephone": "2106567893",
+                "mobile": "6934256788",
+                "vatnumber": "445124764",
+                "vatservice": "ΔΟΥ Περιστερίου",
+                "description": "Mind the Cut: the new barber's experience in Pigeon Town",
+                "representative": "Αργύρης Δεμπεγιώτης Newton",
+                "rating": 5,
+                "iban": "GR16014010101002101047415",
+                "imageUrl": { "id": 1 },
+                "profile": "Barberi Shop"
+            }
+
+            fetch( '', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(companyData),
+            })
+            .then((response) => response.json())
+            .then((companyData) => {
+                console.log('Success:' , companyData);
+            })
+            .catch((error) => {
+                console.log('Error:' , error);
+            });
+        }
 
 
 

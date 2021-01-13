@@ -1,4 +1,5 @@
 [{ 
+	"id":1,
 	"username": "shashasha",
 	"password": "1234",
 	"fname": "Kukuruku OE",
@@ -16,6 +17,7 @@
 	},
 
 	{ 
+		"id":2,
 	"username": "giouxou",
 	"password": "1234",
 	"fname": "Kukuruku AE",
@@ -33,6 +35,7 @@
 	},
 
 	{   
+		"id":3,
 	"username": "dodo",
 	"password": "3212",
 	"fname": "Kukuruku OE",
@@ -49,7 +52,8 @@
 	"roleList": [ {"id": 4} ]
 	},
 
-	{   
+	{  
+		"id":4, 
 	"username": "stststs",
 	"password": "1234",
 	"fname": "Kukuruku OE",

@@ -1,0 +1,20 @@
+{ 
+"username": "kuku",
+"password": "1234",
+"cname": "Kukuruku AE",
+"email": "kuku@gmail.com",
+"postalcode": 15344,
+"address": "aetos",
+"city": "athens",
+"municipality": "chalkida",
+"telephone": 666,
+"mobile": 666666,
+"vatnumber": 66666666,
+"vatservice": "palini",
+"description": "gkofretes",
+"representative": "petran",
+"rating": 5,
+"iban": "GR666",
+"profile": "Hair Stylist",
+"imageUrl": { "id": 2 }
+}

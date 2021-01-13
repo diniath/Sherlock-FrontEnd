@@ -1,19 +1,22 @@
-{ 
-"username": "kuku",
-"password": "1234",
-"cname": "Kukuruku AE",
-"email": "kuku@gmail.com",
-"postalcode": 15344,
-"address": "aetos",
-"city": "athens",
-"municipality": "chalkida",
-"telephone": 666,
-"mobile": 666666,
-"vatnumber": 66666666,
-"vatservice": "palini",
-"description": "gkofretes",
-"representative": "petran",
-"rating": 5,
-"iban": "GR666",
-"imageUrl": { "id": 2 }
-}
+	{ 
+		"id": 1,
+		"username": 		"kukuruku",
+		"password": 		"psalidi1234",
+		"cname": 		"Mind the Cut",
+		"email": 		"mindthecut@gmail.com",
+		"postalcode": 		15235,
+		"address": 		"Κύπρου 5",
+		"city": 		"Αθήνα",
+		"municipality": 	"Βριλήσσια",
+		"telephone": 		"2106567891",
+		"mobile": 		"6934256781",
+		"vatnumber": 		"445124761",
+		"vatservice": 		"ΔΟΥ Χολαργού",
+		"description": 		"Mind the Cut: the new barber's experience in town",
+		"representative": 	"Αργύρης Δεμπεγιώτης",
+		"rating": 		5,
+		"iban": 		"GR16014010101002101047414",
+		"imageUrl": 		{ "id": 1 },
+		"profile":		"Barber Shop"
+		}
+		
